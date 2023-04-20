@@ -1,0 +1,38 @@
+html{
+    scroll-behavior: smooth;
+}
+.bg-purple{
+    background: #250850;
+}
+.bg-purpleD{
+    background: #130326;
+}
+.fnc{
+    color: #fcfccc;
+}
+
+video{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.lg-t{
+    font-size: 100px;
+    text-align: center;
+}
+h1, h2, h3, h4, h5{
+    font-family: 'Bebas Neue', cursive;
+}
+
+@media screen and (max-width:480px) {
+    .lg-t{
+        font-size: 35px !important;
+    }
+    .card{
+        margin-top: 10px;
+    }
+    .navbar-brand{
+        display: none;
+    }
+}
